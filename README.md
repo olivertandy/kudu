@@ -1,5 +1,5 @@
 # kudu
-Generates animated particle systems according to a nested path structure.
+Generates animated particle systems.
 
 ![Example](/example.png)
 
