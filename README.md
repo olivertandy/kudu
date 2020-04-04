@@ -27,7 +27,7 @@ Class that manages the dependent attributes, applying transformations according 
 ### bezier.pde
 Implementation of a Bezier curve.
 ### envelope.pde
-Class that defines an envelope to be set in the control grid. Stores pre-calculated values of a function at a discrete set of points and approximates the value ay any given point by linear interpolation.
+Class that defines an envelope to be set in the control grid. Stores pre-calculated values of a function at a discrete set of points, and when called to give a value, approximates the value at any given point by linear interpolation. This method may seem superfluous for standard functions but was intended to allow for randomly generated functions and point-wise editing of envelopes in future iterations.
 ### envelopeMatrix.pde
 Stores the set of envelopes for a given control grid.
 ### grid.pde
