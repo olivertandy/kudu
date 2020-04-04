@@ -64,7 +64,7 @@ void draw(){
 	
 	pushMatrix();
 	translate(width/2, height/2);
-  scale(0.5);
+	scale(0.5);
 	sg.root.evaluate().draw();
 	popMatrix();
 
