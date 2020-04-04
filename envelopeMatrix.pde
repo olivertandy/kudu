@@ -95,6 +95,13 @@ class EnvelopeMatrix{
 				
 				envelopes.get(matrix[i][j]).draw(xOff, yOff, cellWidth, cellHeight);
 
+        if(matrix[i][j] == 0){
+          pushMatrix();
+          translate(xOff, yOff);
+          text("1.0", 0, cellHeight);
+          popMatrix();
+        }
+
 				if(matrix[i][j] == 1){
 					pushMatrix();
 					translate(xOff, yOff);
