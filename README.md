@@ -10,9 +10,16 @@ Left-clicking and right-clicking on each individual cell will scroll through the
 ## Description of files
 ### kudu7
 Contains the main animation loop and defines preset shapes.
+### sceneGraph
+### spreadParticle
 ### attributes
 Class that manages the dependent attributes.
-
+### bezier
+### envelope
+### envelopeMatrix
+### grid
+### lambda
+### mutableShape
 
 ## Running the code
-Kudu was created using the Processing command-line tool but should be straightforward to run via the Processing IDE. It requires the Geomerative library (https://github.com/rikrd/geomerative) to be installed.
+Kudu should be straightforward to run via the Processing IDE. It requires the Geomerative library (https://github.com/rikrd/geomerative) to be installed.
