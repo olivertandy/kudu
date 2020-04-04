@@ -1,14 +1,14 @@
 # kudu
 Generates animated particle systems according to a nested path structure.
 
-![Example](/example.png)
+![Example](/images/example.png)
 
 The goal was to come up with a class structure that could produce as general a set of geometric patterns as possible. All animation paths are continually cycled; the intention for the program's evolution is ultimately to provide the basis for a visual accompaniment to music.
 
 ## Structure
 Kudu generates particle systems whose attributes are defined by the 'envelopes' in the control panels on the left and right. The basic geometry of each system consists of 2 layers of paths:
 
-![Structure](/structure.png)
+![Structure](/images/structure.png)
 
 There is a single parent path ('Layer 1'), along which several child paths are positioned ('Layer 2'), and then finally along these paths are displayed the particles. Variations on position, colour, etc. change according to where the particle is situated on its parent path and in time. How the aspects vary can be altered using the control grids to the left and right of the image.
 
